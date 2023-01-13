@@ -79,6 +79,7 @@
 }
 .footNote{
     position: static;
+    font-family:"italics"; 
     bottom: 8px;
     left: 16px;
     font-size: small;
