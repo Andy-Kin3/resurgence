@@ -2,7 +2,7 @@ import React from 'react'
 // import Button from 'react-bootstrap/esm/Button'
 import SearchIcon from '@material-ui/icons/Search'
 import "./Home.css"
-// import Services from './Services'
+import Services from './Services'
 function Home() {
   return (
     <div className="Home">
@@ -20,7 +20,7 @@ function Home() {
             <button type="button">Videos</button>
         </div>
       </div>
-      {/* <div className='home_layout'>
+      <div className='home_layout'>
         <Services id='1' title="Quotes" info="Get spirit filled, life changing and inspiring quotes daily
         to impact you and strengthen you, from the resurgence team, every quote given to you is biblical and related to instance
         in your life be it present, past or future click the button more button and check them out..."  />
@@ -30,7 +30,7 @@ function Home() {
         contributions of impactions for every one of us who belong to the kingdom of God..."/>
         <Services id='3' title="Videos" info="We have a lot of video contents to share with you, places we've been and the experiences we have had 
          with God also revelation and prayers sessions to grow with you click the button below to get to the home of resurgence videos..."/>
-      </div> */}
+      </div>
       <div className='footNote'>
         <footer>
           Copyright© Created by Resurgence..
